@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>Pet Manager</title>
+</head>
+<body>
+<div align="center">
+    <h1>Pet List</h1>
+
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>Pet ID</th>
+            <th>Name</th>
+            <th>Owner</th>
+            <th>Species</th>
+            <th>Sex</th>
+            <th>Birth</th>
+            <th>Death</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="pet : ${listPets}">
+            <td th:text="${pet.id}">Pet ID</td>
+            <td th:text="${pet.name}">Name</td>
+            <td th:text="${pet.owner}">Owner</td>
+            <td th:text="${pet.species}">Species</td>
+            <td th:text="${pet.sex}">Sex</td>
+            <td th:text="${pet.birth}">Birth</td>
+            <td th:text="${pet.death}">Death</td>
+            <td>
+                <a th:href="@{'/edit/' + ${pet.id}}">Edit</a>
+                &nbsp;&nbsp;&nbsp;
+                <a th:href="@{'/delete/' + ${pet.id}}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <a href="/new">Create New Pet</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Create New Pet</title>
+</head>
+<body>
+<div align="center">
+    <h1>Create New Pet</h1>
+    <br />
+    <form action="#" th:action="@{/save}" th:object="${pet}"
+          method="post">
+
+        <table border="0" cellpadding="10">
+            <tr>
+                <td>Pet Name:</td>
+                <td><input type="text" th:field="*{name}" /></td>
+            </tr>
+            <tr>
+                <td>Owner:</td>
+                <td><input type="text" th:field="*{owner}" /></td>
+            </tr>
+            <tr>
+                <td>Species:</td>
+                <td><input type="text" th:field="*{species}" /></td>
+            </tr>
+            <tr>
+                <td>Sex:</td>
+                <td><input type="text" th:field="*{sex}" /></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td><input type="text" th:field="*{birth}" /></td>
+            </tr>
+            <tr>
+                <td>Date of Death:</td>
+                <td><input type="text" th:field="*{death}" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Save</button> </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
