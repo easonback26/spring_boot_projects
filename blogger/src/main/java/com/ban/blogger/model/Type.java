@@ -10,6 +10,7 @@ import javax.validation.constraints.NotBlank;
 @Table(name = "t_type")
 public class Type {
 
+    //@javax.persistence.Id
     @Id
     @GeneratedValue
     private Long id;

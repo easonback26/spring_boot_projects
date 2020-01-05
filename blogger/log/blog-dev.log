@@ -1,0 +1,469 @@
+2020-01-04 16:47:56.236  INFO 6574 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 6574 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 16:47:56.237  INFO 6574 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 16:47:56.681  INFO 6574 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 16:47:56.700  INFO 6574 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces.
+2020-01-04 16:47:56.888  INFO 6574 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 16:47:57.051  INFO 6574 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2020-01-04 16:47:57.057  INFO 6574 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 16:47:57.057  INFO 6574 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 16:47:57.133  INFO 6574 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 16:47:57.133  INFO 6574 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 868 ms
+2020-01-04 16:47:57.244  INFO 6574 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 16:47:57.299  INFO 6574 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 16:47:57.394  INFO 6574 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 16:47:57.461  INFO 6574 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 16:47:57.708  INFO 6574 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 16:47:57.721  INFO 6574 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 16:47:58.267  INFO 6574 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 16:47:58.272  INFO 6574 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:47:58.356  WARN 6574 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 16:47:58.462  INFO 6574 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:47:58.588  WARN 6574 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 16:47:58.680  INFO 6574 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2020-01-04 16:47:58.682  INFO 6574 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.739 seconds (JVM running for 8.169)
+2020-01-04 16:48:00.833  INFO 6574 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:48:00.834  INFO 6574 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:48:00.836  INFO 6574 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 16:48:00.844  INFO 6574 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 16:48:14.347  INFO 6600 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 6600 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 16:48:14.348  INFO 6600 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 16:48:14.719  INFO 6600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 16:48:14.734  INFO 6600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 16:48:14.893  INFO 6600 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 16:48:15.032  INFO 6600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 16:48:15.038  INFO 6600 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 16:48:15.038  INFO 6600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 16:48:15.102  INFO 6600 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 16:48:15.102  INFO 6600 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 730 ms
+2020-01-04 16:48:15.189  INFO 6600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 16:48:15.229  INFO 6600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 16:48:15.296  INFO 6600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 16:48:15.351  INFO 6600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 16:48:15.593  INFO 6600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 16:48:15.604  INFO 6600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 16:48:16.001  INFO 6600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 16:48:16.006  INFO 6600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:48:16.102  WARN 6600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 16:48:16.203  INFO 6600 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:48:16.289  WARN 6600 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 16:48:16.373  INFO 6600 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 16:48:16.376  INFO 6600 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.286 seconds (JVM running for 7.678)
+2020-01-04 16:50:54.003  INFO 6600 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:50:54.004  INFO 6600 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:50:54.006  INFO 6600 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 16:50:54.020  INFO 6600 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 16:51:01.957  INFO 6681 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 6681 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 16:51:01.958  INFO 6681 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 16:51:02.402  INFO 6681 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 16:51:02.428  INFO 6681 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JPA repository interfaces.
+2020-01-04 16:51:02.599  INFO 6681 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 16:51:02.747  INFO 6681 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 16:51:02.752  INFO 6681 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 16:51:02.752  INFO 6681 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 16:51:02.815  INFO 6681 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 16:51:02.815  INFO 6681 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 827 ms
+2020-01-04 16:51:02.899  INFO 6681 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 16:51:02.935  INFO 6681 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 16:51:03.000  INFO 6681 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 16:51:03.058  INFO 6681 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 16:51:03.293  INFO 6681 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 16:51:03.305  INFO 6681 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 16:51:03.674  INFO 6681 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 16:51:03.678  INFO 6681 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:51:03.747  WARN 6681 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 16:51:03.827  INFO 6681 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:51:03.912  WARN 6681 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 16:51:03.999  INFO 6681 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 16:51:04.001  INFO 6681 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.312 seconds (JVM running for 7.718)
+2020-01-04 16:51:19.233  INFO 6681 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 16:51:19.234  INFO 6681 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 16:51:19.238  INFO 6681 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-01-04 16:55:32.888  INFO 6681 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:55:32.888  INFO 6681 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:55:32.890  INFO 6681 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 16:55:32.896  INFO 6681 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 16:55:40.745  INFO 6766 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 6766 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 16:55:40.746  INFO 6766 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 16:55:41.121  INFO 6766 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 16:55:41.136  INFO 6766 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-01-04 16:55:41.295  INFO 6766 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 16:55:41.434  INFO 6766 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 16:55:41.439  INFO 6766 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 16:55:41.439  INFO 6766 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 16:55:41.502  INFO 6766 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 16:55:41.502  INFO 6766 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 732 ms
+2020-01-04 16:55:41.586  INFO 6766 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 16:55:41.622  INFO 6766 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 16:55:41.690  INFO 6766 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 16:55:41.746  INFO 6766 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 16:55:41.972  INFO 6766 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 16:55:41.983  INFO 6766 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 16:55:42.342  INFO 6766 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 16:55:42.346  INFO 6766 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:55:42.416  WARN 6766 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 16:55:42.499  INFO 6766 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:55:42.584  WARN 6766 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 16:55:42.668  INFO 6766 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 16:55:42.670  INFO 6766 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.186 seconds (JVM running for 7.587)
+2020-01-04 16:57:10.826  INFO 6766 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:57:10.827  INFO 6766 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:57:10.829  INFO 6766 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 16:57:10.838  INFO 6766 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 16:57:18.715  INFO 6789 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 6789 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 16:57:18.716  INFO 6789 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 16:57:19.085  INFO 6789 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 16:57:19.100  INFO 6789 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 16:57:19.259  INFO 6789 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 16:57:19.399  INFO 6789 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 16:57:19.413  INFO 6789 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 16:57:19.413  INFO 6789 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 16:57:19.475  INFO 6789 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 16:57:19.476  INFO 6789 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 738 ms
+2020-01-04 16:57:19.561  INFO 6789 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 16:57:19.599  INFO 6789 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 16:57:19.662  INFO 6789 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 16:57:19.718  INFO 6789 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 16:57:19.944  INFO 6789 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 16:57:19.955  INFO 6789 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 16:57:20.303  INFO 6789 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 16:57:20.306  INFO 6789 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 16:57:20.372  WARN 6789 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 16:57:20.449  INFO 6789 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 16:57:20.532  WARN 6789 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 16:57:20.615  INFO 6789 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 16:57:20.618  INFO 6789 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.162 seconds (JVM running for 7.577)
+2020-01-04 16:57:32.255  INFO 6789 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 16:57:32.256  INFO 6789 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 16:57:32.261  INFO 6789 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-04 17:13:04.672  INFO 6789 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:13:04.673  INFO 6789 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:13:04.677  INFO 6789 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:13:04.683  INFO 6789 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:13:12.606  INFO 7061 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7061 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:13:12.608  INFO 7061 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:13:12.983  INFO 7061 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:13:12.997  INFO 7061 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 17:13:13.158  INFO 7061 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:13:13.298  INFO 7061 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:13:13.303  INFO 7061 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:13:13.303  INFO 7061 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:13:13.368  INFO 7061 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:13:13.369  INFO 7061 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 738 ms
+2020-01-04 17:13:13.453  INFO 7061 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:13:13.491  INFO 7061 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:13:13.557  INFO 7061 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:13:13.620  INFO 7061 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:13:13.844  INFO 7061 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:13:13.855  INFO 7061 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:13:14.213  INFO 7061 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:13:14.217  INFO 7061 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:13:14.288  WARN 7061 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:13:14.369  INFO 7061 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:13:14.451  WARN 7061 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:13:14.538  INFO 7061 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:13:14.540  INFO 7061 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.196 seconds (JVM running for 7.607)
+2020-01-04 17:13:21.581  INFO 7061 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:13:21.582  INFO 7061 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:13:21.587  INFO 7061 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-04 17:15:28.321  INFO 7061 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:15:28.321  INFO 7061 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:15:28.323  INFO 7061 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:15:28.329  INFO 7061 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:15:44.171  INFO 7120 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7120 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:15:44.172  INFO 7120 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:15:44.535  INFO 7120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:15:44.552  INFO 7120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-01-04 17:15:44.711  INFO 7120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:15:44.849  INFO 7120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:15:44.854  INFO 7120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:15:44.855  INFO 7120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:15:44.932  INFO 7120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:15:44.932  INFO 7120 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 737 ms
+2020-01-04 17:15:45.017  INFO 7120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:15:45.053  INFO 7120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:15:45.122  INFO 7120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:15:45.177  INFO 7120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:15:45.391  INFO 7120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:15:45.405  INFO 7120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:15:45.764  INFO 7120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:15:45.768  INFO 7120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:15:45.839  WARN 7120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:15:45.928  INFO 7120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:15:46.023  WARN 7120 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:15:46.117  INFO 7120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:15:46.119  INFO 7120 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.209 seconds (JVM running for 7.603)
+2020-01-04 17:15:53.778  INFO 7120 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:15:53.779  INFO 7120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:15:53.784  INFO 7120 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-04 17:18:26.578  INFO 7120 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:18:26.579  INFO 7120 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:18:26.581  INFO 7120 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:18:26.588  INFO 7120 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:18:34.491  INFO 7179 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7179 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:18:34.492  INFO 7179 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:18:34.862  INFO 7179 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:18:34.877  INFO 7179 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 17:18:35.038  INFO 7179 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:18:35.181  INFO 7179 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:18:35.187  INFO 7179 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:18:35.187  INFO 7179 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:18:35.259  INFO 7179 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:18:35.259  INFO 7179 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 744 ms
+2020-01-04 17:18:35.343  INFO 7179 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:18:35.380  INFO 7179 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:18:35.446  INFO 7179 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:18:35.503  INFO 7179 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:18:35.725  INFO 7179 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:18:35.736  INFO 7179 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:18:36.088  INFO 7179 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:18:36.092  INFO 7179 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:18:36.159  WARN 7179 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:18:36.239  INFO 7179 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:18:36.318  WARN 7179 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:18:36.406  INFO 7179 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:18:36.409  INFO 7179 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.177 seconds (JVM running for 7.584)
+2020-01-04 17:18:44.754  INFO 7179 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:18:44.755  INFO 7179 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:18:44.761  INFO 7179 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-01-04 17:21:39.906  INFO 7179 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:21:39.906  INFO 7179 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:21:39.908  INFO 7179 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:21:39.914  INFO 7179 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:21:47.697  INFO 7231 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7231 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:21:47.698  INFO 7231 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:21:48.067  INFO 7231 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:21:48.082  INFO 7231 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 17:21:48.244  INFO 7231 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:21:48.383  INFO 7231 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:21:48.397  INFO 7231 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:21:48.398  INFO 7231 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:21:48.460  INFO 7231 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:21:48.461  INFO 7231 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 740 ms
+2020-01-04 17:21:48.544  INFO 7231 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:21:48.580  INFO 7231 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:21:48.647  INFO 7231 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:21:48.703  INFO 7231 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:21:48.928  INFO 7231 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:21:48.939  INFO 7231 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:21:49.299  INFO 7231 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:21:49.303  INFO 7231 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:21:49.373  WARN 7231 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:21:49.453  INFO 7231 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:21:49.536  WARN 7231 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:21:49.623  INFO 7231 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:21:49.625  INFO 7231 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.19 seconds (JVM running for 7.563)
+2020-01-04 17:21:59.762  INFO 7231 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:21:59.762  INFO 7231 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:21:59.767  INFO 7231 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-01-04 17:32:59.214  INFO 7231 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:32:59.214  INFO 7231 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:32:59.217  INFO 7231 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:32:59.223  INFO 7231 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:33:07.138  INFO 7419 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7419 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:33:07.139  INFO 7419 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:33:07.511  INFO 7419 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:33:07.526  INFO 7419 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 17:33:07.688  INFO 7419 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:33:07.827  INFO 7419 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:33:07.833  INFO 7419 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:33:07.833  INFO 7419 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:33:07.905  INFO 7419 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:33:07.905  INFO 7419 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 742 ms
+2020-01-04 17:33:07.990  INFO 7419 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:33:08.026  INFO 7419 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:33:08.096  INFO 7419 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:33:08.155  INFO 7419 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:33:08.389  INFO 7419 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:33:08.402  INFO 7419 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:33:08.761  INFO 7419 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:33:08.766  INFO 7419 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:33:08.832  WARN 7419 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:33:08.916  INFO 7419 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:33:08.994  WARN 7419 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:33:09.078  INFO 7419 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:33:09.081  INFO 7419 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.205 seconds (JVM running for 7.624)
+2020-01-04 17:33:12.424  INFO 7419 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:33:12.425  INFO 7419 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:33:12.430  INFO 7419 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-04 17:35:45.709  INFO 7419 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:35:45.710  INFO 7419 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:35:45.712  INFO 7419 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:35:45.718  INFO 7419 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:35:54.786  INFO 7488 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7488 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:35:54.788  INFO 7488 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:35:55.201  INFO 7488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:35:55.216  INFO 7488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 17:35:55.384  INFO 7488 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:35:55.554  INFO 7488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:35:55.561  INFO 7488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:35:55.561  INFO 7488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:35:55.615  INFO 7488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:35:55.615  INFO 7488 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 804 ms
+2020-01-04 17:35:55.703  INFO 7488 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:35:55.738  INFO 7488 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:35:55.802  INFO 7488 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:35:55.863  INFO 7488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:35:56.123  INFO 7488 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:35:56.134  INFO 7488 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:35:56.500  INFO 7488 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:35:56.504  INFO 7488 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:35:56.573  WARN 7488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:35:56.650  INFO 7488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:35:56.729  WARN 7488 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:35:56.831  INFO 7488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:35:56.834  INFO 7488 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.332 seconds (JVM running for 7.855)
+2020-01-04 17:36:00.014  INFO 7488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:36:00.015  INFO 7488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:36:00.019  INFO 7488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-01-04 17:40:04.248  INFO 7488 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:40:04.249  INFO 7488 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:40:04.251  INFO 7488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:40:04.257  INFO 7488 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:40:12.361  INFO 7581 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7581 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:40:12.363  INFO 7581 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:40:12.759  INFO 7581 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:40:12.774  INFO 7581 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-01-04 17:40:12.945  INFO 7581 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:40:13.110  INFO 7581 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:40:13.116  INFO 7581 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:40:13.116  INFO 7581 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:40:13.168  INFO 7581 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:40:13.168  INFO 7581 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 778 ms
+2020-01-04 17:40:13.259  INFO 7581 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:40:13.295  INFO 7581 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:40:13.362  INFO 7581 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:40:13.426  INFO 7581 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:40:13.706  INFO 7581 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:40:13.719  INFO 7581 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:40:14.212  INFO 7581 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:40:14.216  INFO 7581 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:40:14.284  WARN 7581 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:40:14.370  INFO 7581 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:40:14.450  WARN 7581 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:40:14.565  INFO 7581 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:40:14.567  INFO 7581 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.521 seconds (JVM running for 8.122)
+2020-01-04 17:40:26.269  INFO 7581 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:40:26.269  INFO 7581 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:40:26.275  INFO 7581 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-01-04 17:49:05.813  INFO 7581 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:49:05.814  INFO 7581 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:49:05.816  INFO 7581 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:49:05.822  INFO 7581 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:49:13.788  INFO 7747 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7747 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:49:13.789  INFO 7747 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:49:14.199  INFO 7747 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:49:14.214  INFO 7747 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 JPA repository interfaces.
+2020-01-04 17:49:14.383  INFO 7747 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:49:14.540  INFO 7747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:49:14.547  INFO 7747 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:49:14.547  INFO 7747 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:49:14.602  INFO 7747 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:49:14.602  INFO 7747 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 788 ms
+2020-01-04 17:49:14.690  INFO 7747 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:49:14.728  INFO 7747 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:49:14.792  INFO 7747 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:49:14.848  INFO 7747 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:49:15.101  INFO 7747 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:49:15.112  INFO 7747 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:49:15.510  INFO 7747 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:49:15.514  INFO 7747 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:49:15.583  WARN 7747 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:49:15.665  INFO 7747 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:49:15.748  WARN 7747 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:49:15.838  INFO 7747 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:49:15.840  INFO 7747 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.343 seconds (JVM running for 7.829)
+2020-01-04 17:49:34.398  INFO 7747 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:49:34.399  INFO 7747 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:49:34.404  INFO 7747 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-04 17:49:34.458  WARN 7747 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'value' for method parameter of type String]
+2020-01-04 17:49:44.703  INFO 7747 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:49:44.703  INFO 7747 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:49:44.705  INFO 7747 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 17:49:44.711  INFO 7747 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 17:49:52.804  INFO 7777 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 7777 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 17:49:52.806  INFO 7777 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 17:49:53.196  INFO 7777 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 17:49:53.212  INFO 7777 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 17:49:53.382  INFO 7777 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 17:49:53.542  INFO 7777 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 17:49:53.547  INFO 7777 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 17:49:53.548  INFO 7777 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 17:49:53.605  INFO 7777 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 17:49:53.605  INFO 7777 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 773 ms
+2020-01-04 17:49:53.693  INFO 7777 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 17:49:53.729  INFO 7777 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 17:49:53.795  INFO 7777 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 17:49:53.857  INFO 7777 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 17:49:54.109  INFO 7777 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 17:49:54.120  INFO 7777 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 17:49:54.501  INFO 7777 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 17:49:54.506  INFO 7777 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 17:49:54.576  WARN 7777 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 17:49:54.658  INFO 7777 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 17:49:54.742  WARN 7777 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 17:49:54.829  INFO 7777 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 17:49:54.831  INFO 7777 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.312 seconds (JVM running for 7.791)
+2020-01-04 17:50:00.076  INFO 7777 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 17:50:00.077  INFO 7777 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 17:50:00.081  INFO 7777 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-01-04 18:19:51.433  INFO 7777 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:19:51.434  INFO 7777 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 18:19:51.436  INFO 7777 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 18:19:51.441  INFO 7777 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 18:19:59.554  INFO 8315 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 8315 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 18:19:59.555  INFO 8315 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 18:19:59.990  INFO 8315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 18:20:00.010  INFO 8315 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+2020-01-04 18:20:00.198  INFO 8315 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 18:20:00.365  INFO 8315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 18:20:00.372  INFO 8315 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 18:20:00.372  INFO 8315 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 18:20:00.429  INFO 8315 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 18:20:00.430  INFO 8315 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 848 ms
+2020-01-04 18:20:00.534  INFO 8315 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 18:20:00.586  INFO 8315 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 18:20:00.678  INFO 8315 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 18:20:00.749  INFO 8315 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 18:20:01.013  INFO 8315 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 18:20:01.028  INFO 8315 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 18:20:01.507  INFO 8315 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 18:20:01.512  INFO 8315 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 18:20:01.595  WARN 8315 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 18:20:01.685  INFO 8315 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:20:01.773  WARN 8315 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 18:20:01.863  INFO 8315 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 18:20:01.866  INFO 8315 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.623 seconds (JVM running for 8.122)
+2020-01-04 18:20:35.439  INFO 8315 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:20:35.440  INFO 8315 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 18:20:35.442  INFO 8315 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 18:20:35.448  INFO 8315 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-01-04 18:20:43.508  INFO 8339 --- [main] com.ban.blogger.BloggerApplication       : Starting BloggerApplication on Shadows-Mac-mini.local with PID 8339 (/Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger/target/classes started by shadowsong in /Users/shadowsong/Documents/GitHub/spring_boot_projects/blogger)
+2020-01-04 18:20:43.509  INFO 8339 --- [main] com.ban.blogger.BloggerApplication       : The following profiles are active: dev
+2020-01-04 18:20:43.873  INFO 8339 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-04 18:20:43.887  INFO 8339 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-01-04 18:20:44.058  INFO 8339 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-04 18:20:44.210  INFO 8339 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-04 18:20:44.217  INFO 8339 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-04 18:20:44.217  INFO 8339 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-04 18:20:44.270  INFO 8339 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-04 18:20:44.270  INFO 8339 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 736 ms
+2020-01-04 18:20:44.357  INFO 8339 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-04 18:20:44.391  INFO 8339 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-01-04 18:20:44.455  INFO 8339 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-01-04 18:20:44.511  INFO 8339 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-01-04 18:20:44.762  INFO 8339 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-01-04 18:20:44.774  INFO 8339 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-01-04 18:20:45.148  INFO 8339 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-04 18:20:45.152  INFO 8339 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 18:20:45.219  WARN 8339 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-04 18:20:45.298  INFO 8339 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:20:45.376  WARN 8339 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-01-04 18:20:45.483  INFO 8339 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-04 18:20:45.485  INFO 8339 --- [main] com.ban.blogger.BloggerApplication       : Started BloggerApplication in 2.258 seconds (JVM running for 7.815)
+2020-01-04 18:20:59.879  INFO 8339 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-04 18:20:59.879  INFO 8339 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-04 18:20:59.884  INFO 8339 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-01-04 18:22:27.751  INFO 8339 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-04 18:22:27.751  INFO 8339 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-04 18:22:27.753  INFO 8339 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-01-04 18:22:27.760  INFO 8339 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674e47f2-ae69-4d16-b6b1-4812774f79a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/model/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/log/blog-dev.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/controller/TypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/dao/TypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/dao/TypeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/mapper/TypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/service/TypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/service/TypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application-pro.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blogger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/model/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blogger/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -65,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578018995040</updated>
       <workItem from="1578018998013" duration="61000" />
-      <workItem from="1578151013666" duration="2628000" />
+      <workItem from="1578151013666" duration="6151000" />
     </task>
     <servers />
   </component>
@@ -105,5 +115,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="304" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578019058957" />
+    <state x="388" y="236" key="new project wizard" timestamp="1578170661003">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="388" y="236" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1578170661003" />
   </component>
 </project>
