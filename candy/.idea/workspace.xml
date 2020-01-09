@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="674e47f2-ae69-4d16-b6b1-4812774f79a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blogger/log/blog-dev.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/controller/TypeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/dao/TypeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/dao/TypeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/mapper/TypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/service/TypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/service/TypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application-pro.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blogger/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogger/src/main/java/com/ban/blogger/model/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogger/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blogger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/spring-mvc-blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/java/ShadowSong/springmvcblog/SpringMvcBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/java/ShadowSong/springmvcblog/contorllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/public/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/public/img/site-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/public/js/blog-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/public/js/jquery-3.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-mvc-blog/src/test/java/ShadowSong/springmvcblog/SpringMvcBlogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +34,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1VrlG48LZY11HrxMvAfFq8QtU28" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,6 +92,9 @@
       <updated>1578018995040</updated>
       <workItem from="1578018998013" duration="61000" />
       <workItem from="1578151013666" duration="6151000" />
+      <workItem from="1578265760314" duration="1220000" />
+      <workItem from="1578372144271" duration="944000" />
+      <workItem from="1578512197456" duration="142000" />
     </task>
     <servers />
   </component>
@@ -115,9 +134,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1876" height="304" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1578019058957" />
+    <state x="651" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1578512315158">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="651" y="371" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578512315158" />
     <state x="388" y="236" key="new project wizard" timestamp="1578170661003">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="388" y="236" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1578170661003" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1578265773749">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1578265773749" />
   </component>
 </project>
