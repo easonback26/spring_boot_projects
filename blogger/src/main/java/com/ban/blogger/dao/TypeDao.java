@@ -4,6 +4,8 @@ import com.ban.blogger.model.Type;
 import org.springframework.stereotype.Repository;
 
 import javax.transaction.Transactional;
+import java.util.List;
+import java.util.Map;
 
 
 @Transactional
@@ -14,6 +16,9 @@ public interface TypeDao {
     Type updateTypeByNameAndId(String name, String id);
 
     Type insertTypeByName(String name);
+
+    List<Map<String, Object>> getAllType();
+
 
     void deleteTypeById(Long id);
 }

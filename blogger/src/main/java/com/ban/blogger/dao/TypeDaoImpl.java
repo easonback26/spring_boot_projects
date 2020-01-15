@@ -8,12 +8,17 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 import com.ban.blogger.mapper.TypeMapper;
 
+import java.util.List;
+import java.util.Map;
+
 
 @Repository
 public class TypeDaoImpl implements TypeDao {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
+
+
 
     @Override
     public Type getTypeById(Long id) {
@@ -59,6 +64,13 @@ public class TypeDaoImpl implements TypeDao {
             e.printStackTrace();
             return null;
         }
+    }
+
+    @Override
+    public List<Map<String, Object>> getAllType() {
+        String sql = String.format("select * from t_type");
+        List<Map<String, Object>> list = this.jdbcTemplate.queryForList(sql);
+        return list;
     }
 
     @Override

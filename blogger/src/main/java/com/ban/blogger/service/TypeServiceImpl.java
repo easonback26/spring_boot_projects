@@ -8,6 +8,9 @@ import com.ban.blogger.model.Type;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Map;
+
 @Service
 public class TypeServiceImpl implements TypeService {
 
@@ -35,6 +38,11 @@ public class TypeServiceImpl implements TypeService {
     @Override
     public Type addType(String name) {
         return typeDao.insertTypeByName(name);
+    }
+
+    @Override
+    public List<Map<String, Object>> getAllType() {
+        return typeDao.getAllType();
     }
 
     @Override

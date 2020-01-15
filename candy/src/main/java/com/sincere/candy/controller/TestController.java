@@ -17,7 +17,7 @@ import java.util.List;
 //如果要return单个data(String/json), 用RestController. return一个file 或者template用Controller.
 @RestController
 @CrossOrigin
-@Api(description = "textController")
+@Api("testController")
 public class TestController {
 
     @Autowired

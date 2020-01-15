@@ -2,10 +2,12 @@ package com.ban.blogger.controller;
 
 import com.ban.blogger.model.Type;
 import com.ban.blogger.service.TypeService;
+import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+
+import java.util.List;
 
 @RestController
 public class TypeController {
@@ -15,8 +17,13 @@ public class TypeController {
 
     @GetMapping("/getById")
     public String getType(){
-        Type type = typeService.getType((long)1);
-        System.out.println(type);
+        Type type = typeService.getType((long)56);
+        Gson gson = new Gson();
+        String jsonString = gson.toJson(typeService.getType((long)56));
+
+        Type tt = gson.fromJson(jsonString,Type.class);
+
+        System.out.println(tt);
         return "type service gets called. ";
     }
 
@@ -28,24 +35,55 @@ public class TypeController {
         return "type service gets called. ";
     }
 
-    @GetMapping("/addType/{value}")
-    public String addType(@PathVariable String value){
-        typeService.addType(value);
-        return value;
+
+    @GetMapping("/getAllType")
+    public String getAllType(){
+        Gson gson = new Gson();
+        String jsonString = gson.toJson(typeService.getAllType());
+
+        List jsonList = gson.fromJson(jsonString,List.class);
+        for (Object el : jsonList) {
+            jsonString = gson.toJson(el);
+            Type type = gson.fromJson(jsonString,Type.class);
+            System.out.println(type);
+        }
+//        typeList.forEach((el) -> {
+//            System.out.println(el);
+//        });
+
+        //return typeService.getAllType();
+        return gson.toJson(typeService.getAllType());
     }
 
-    @GetMapping("/updateType/{value}/{id}")
-    public Type updateType(@PathVariable String value, @PathVariable String id){
+    @PutMapping ("/addType/{value}")
+    public String addType(@PathVariable String value){
+        typeService.addType(value);
+
+        Gson gson = new Gson();
+        return gson.toJson(value);
+    }
+
+//    @PostMapping ("/addType")
+//    public String addType(HttpServletRequest request){
+//        String value = request.getParameter("value");
+//        typeService.addType(value);
+//        return value;
+//    }
+
+    @PostMapping ("/updateType/{value}/{id}")
+    public String updateType(@PathVariable String value, @PathVariable String id){
         Type type = typeService.updateType(value, id);
+
         System.out.println(value);
         System.out.println(id);
 
-        return type;
+        Gson gson = new Gson();
+        return gson.toJson(type);
     }
 
-    @GetMapping("/deleteType")
-    public String deleteType(){
-        typeService.deleteType((long)1);
+    @DeleteMapping("/deleteType/{id}")
+    public String deleteType(@PathVariable long id){
+        typeService.deleteType(id);
         return "Delete successfully";
     }
 
