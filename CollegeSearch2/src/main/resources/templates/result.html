@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College List</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <title>College List</title>
+</head>
+
+<body>
+<div align="center">
+    <h1>College List</h1>
+
+    <a href="/searching">Start New Search</a>
+
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Size</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="college : ${listColleges}">
+            <td th:text="${college.id}">College ID</td>
+            <td th:text="${college.name}">College Name</td>
+            <td th:text="${college.year}">College Year</td>
+            <td th:text="${college.size}">College Size</td>
+
+        </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <!--    <a href="/new">Create New Pet</a>-->
+</div>
+
+</body>
+</html>
